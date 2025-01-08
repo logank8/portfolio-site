@@ -9,41 +9,37 @@ hero:
     - theme: brand
       text: About me
       link: /about
-
+  features:
+    - title: Feature A
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: Feature B
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: Feature C
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  
 ---
 <h1>Projects</h1>
 
-[Open world environment in Unity Engine](/open-world-render.md)
+<div :class="$style.projectDisplay">
+  <a href="/304-project" :class="$style.card">
+      <div :class="$style.cardTitle">
+      Real-Time Rendering in Unity Engine
+      </div>
+    </a>
+    <a href="/304-project" :class="$style.card">
+      <div :class="$style.cardTitle">
+      2D Video Game in C++ and OpenGL
+      </div>
+    </a>
+    <a href="/304-project" :class="$style.card">
+      <div :class="$style.cardTitle">
+      Social Media Admin Interface
+      </div>
+      <!--<a href="/304-project" :class="$style.cardText">See More</a>-->
+    </a>
 
-
-<div :class="$style.card">
-  <div :class="$style.cardTitle">
-  Real-Time Rendering in Unity Engine
-  
-  <a href="/open-world-render">See More</a>
-  </div>
 </div>
 
-<div :class="$style.card">
-  <div :class="$style.cardTitle">
-  2D Video Game in C++ and OpenGL
-
-  <a href="/eviction-game">See More</a>
-  </div>
-</div>
-
-<div :class="$style.card">
-  <div :class="$style.cardTitle">
-  Social Media Admin Interface
-
-  <a href="/304-project">See More</a>
-  </div>
-</div>
-
-
-[2D Video Game in C++ and OpenGL](/eviction-game.md)
-
-[Social Media Admin SQL Database](/304-project.md)
 
 <br/>
 
@@ -71,14 +67,13 @@ Tools: Git, VSCode, IntelliJ, WordPress, GDB, LLDB
 <style module>
   .card {
     box-shadow: 0 1px 4px 0 #000000;
-    width: 36%;
     border-radius: 25px;
     background-color:rgb(238, 242, 245, 0.4);
     display: grid;
-    grid-column: 1;
-    grid-row: 2;
-    margin-bottom: 10%;
-    height: 250px;
+    text-decoration: none !important;
+    width: 400px;
+    height: 150px;
+    margin-left: 1%;
 }
 
   .card:hover {
@@ -91,9 +86,17 @@ Tools: Git, VSCode, IntelliJ, WordPress, GDB, LLDB
       font-size: 30px;
       text-align: center;
       margin-inline: 10%;
-      height: 120px;
       margin-top: 10%;
       line-height: 35px;
-      color:rgb(53, 53, 55);
+      color:black;
+      opacity: 1.0;
+      text-decoration: none;
   }
+
+  .projectDisplay {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 </style>
