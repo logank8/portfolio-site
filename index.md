@@ -41,5 +41,3 @@ Frameworks: React.js, OpenGL, Node.js, JUnit
 
 Tools: Git, VSCode, IntelliJ, WordPress, GDB, LLDB
 
-
-<!-- put button to about me here ? -->
