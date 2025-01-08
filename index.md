@@ -3,14 +3,14 @@
 layout: home
 
 hero:
-  name: "Logan Keener Portfolio"
-  text: "My portfolio showcasing my work and experience"
-  tagline: My great project tagline
+  name: "Logan Keener"
+  #text: "Logan Keener"
+  tagline: "Software Engineer Looking For Work"
   actions:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
-    - theme: alt
+    - theme: brand
       text: API Examples
       link: /api-examples
 
