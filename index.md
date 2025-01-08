@@ -11,12 +11,13 @@ hero:
       link: /about
 
 ---
-
 <h1>Projects</h1>
 
-<li>Open world environment in Unity Engine</li>
-<li>2D Video Game in C++ and OpenGL</li>
-<li>Social Media Admin SQL Database</li>
+[Open world environment in Unity Engine](/open-world-render.md)
+
+[2D Video Game in C++ and OpenGL](/eviction-game.md)
+
+[Social Media Admin SQL Database](/304-project.md)
 
 <br/>
 
@@ -35,7 +36,7 @@ hero:
 
 <!-- put this in a flex display with two columns -->
 
-Languages: C++, C#, GLSL, HTML, CSS, JavaScript, Python, SQL
+Languages: C++, C#, GLSL, HTML, CSS, JavaScript, SQL
 
 Frameworks: React.js, OpenGL, Node.js, JUnit
 
