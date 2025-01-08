@@ -19,18 +19,24 @@ hero:
 <div :class="$style.card">
   <div :class="$style.cardTitle">
   Real-Time Rendering in Unity Engine
+  
+  <a href="/open-world-render">See More</a>
   </div>
 </div>
 
 <div :class="$style.card">
   <div :class="$style.cardTitle">
   2D Video Game in C++ and OpenGL
+
+  <a href="/eviction-game">See More</a>
   </div>
 </div>
 
 <div :class="$style.card">
   <div :class="$style.cardTitle">
   Social Media Admin Interface
+
+  <a href="/304-project">See More</a>
   </div>
 </div>
 
