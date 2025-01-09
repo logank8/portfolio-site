@@ -5,28 +5,21 @@ hero:
   name: "Logan Keener"
   text: "Software engineer"
   tagline: "Open to work in web development, graphics programming, & more."
+  image: './icons/computer_clipart.png'
   actions:
     - theme: brand
       text: About me
       link: /about
-  features:
-    - title: Feature A
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: Feature B
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: Feature C
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  
 ---
 <h1>Projects</h1>
 
 <div :class="$style.projectDisplay">
-  <a href="/304-project" :class="$style.card">
+  <a href="/open-world-render" :class="$style.card">
       <div :class="$style.cardTitle">
       Real-Time Rendering in Unity Engine
       </div>
     </a>
-    <a href="/304-project" :class="$style.card">
+    <a href="/eviction-game" :class="$style.card">
       <div :class="$style.cardTitle">
       2D Video Game in C++ and OpenGL
       </div>
@@ -94,7 +87,7 @@ Tools: Git, VSCode, IntelliJ, WordPress, GDB, LLDB
   }
 
   .projectDisplay {
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;

@@ -1,25 +1,31 @@
 {
-  "hash": "ddd1a480",
+  "hash": "4f5121f3",
   "configHash": "59dceaf5",
-  "lockfileHash": "70122823",
-  "browserHash": "eeac3279",
+  "lockfileHash": "ea5de878",
+  "browserHash": "99ff1ea4",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "965ea247",
+      "fileHash": "e2843eb3",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "856bd0d2",
+      "fileHash": "82d897bf",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "bb353e37",
+      "fileHash": "0d5f6969",
+      "needsInterop": false
+    },
+    "@fortawesome/vue-fontawesome": {
+      "src": "../../../node_modules/@fortawesome/vue-fontawesome/index.es.js",
+      "file": "@fortawesome_vue-fontawesome.js",
+      "fileHash": "fe9f8d0a",
       "needsInterop": false
     }
   },
