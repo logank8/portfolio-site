@@ -4,8 +4,8 @@ layout: home
 hero:
   name: "Logan Keener"
   text: "Software engineer"
-  tagline: "Open to work in web development, graphics programming, & more."
-  image: './icons/computer_clipart.png'
+  tagline: "Open to work in software development, graphics programming, & more."
+  image: '.'
   actions:
     - theme: brand
       text: About me
