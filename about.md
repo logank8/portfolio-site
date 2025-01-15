@@ -14,13 +14,13 @@ If you have any opportunities, questions, or simple comments - feel free to cont
 
 <div :class="$style.contactDisplay">
     <a href="github.com/logank8">
-        <img src="./icons/github.png" :class="$style.contactIcon">
+        <img src="./media/icons/github.png" :class="$style.contactIcon">
     </a>
     <a href="mailto:lokeener@student.ubc.ca">
-        <img src="./icons/email.png" :class="$style.contactIcon">
+        <img src="./media/icons/email.png" :class="$style.contactIcon">
     </a>
     <a href="https://www.linkedin.com/in/logan-keener-5a5794206/">
-        <img src="./icons/linkedin.png" :class="$style.contactIcon">
+        <img src="./media/icons/linkedin.png" :class="$style.contactIcon">
     </a>
 </div>
 
