@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.D_tc8BW1.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"eviction-game.md","filePath":"eviction-game.md"}'),o={name:"eviction-game.md"};function c(n,i,r,s,m,p){return a(),t("div")}const f=e(o,[["render",c]]);export{d as __pageData,f as default};

@@ -14,17 +14,17 @@ hero:
 <h1>Projects</h1>
 
 <div :class="$style.projectDisplay">
-  <a href="/open-world-render" :class="$style.card">
+  <a href="./open-world-render" :class="$style.card">
       <div :class="$style.cardTitle">
       Real-Time Rendering in Unity Engine
       </div>
     </a>
-    <a href="/eviction-game" :class="$style.card">
+    <a href="./eviction-game" :class="$style.card">
       <div :class="$style.cardTitle">
       2D Video Game in C++ and OpenGL
       </div>
     </a>
-    <a href="/304-project" :class="$style.card">
+    <a href="./304-project" :class="$style.card">
       <div :class="$style.cardTitle">
       Social Media Admin Interface
       </div>
