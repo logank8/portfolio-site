@@ -1,4 +1,4 @@
-<h1 :class="$style.header">Eviction of the Damned</h1>
+<h1 :class="$style.header">Eviction of the Damned: 2D Video Game</h1>
 
 
 <h2>Project Summary</h2>
@@ -80,7 +80,7 @@ I handled all transitions between splash screens, menus, cutscenes, and gameplay
 
 <h4>2D Physics system</h4>
 
-The physics system was a collaborative effort across the entire team. However, I am most proud of my work on the AABB collisions and circle-based collision detection for interactable objects such as health buffs, NPCs, and doors.
+The physics system was a collaborative effort across the entire team. However, I am most proud of my work on the AABB collisions and radius-based proximity detection for interactable objects such as health buffs, NPCs, and doors.
 
 <style module>
 .header {
