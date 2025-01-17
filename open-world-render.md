@@ -1,7 +1,8 @@
-<div>
-<h1 :class="$style.header">Unity Open World Environment</h1>
 
-</div>
+<h1 :class="$style.header">Unreal Open World Environment</h1>
+
+
+This page is currently under construction. Please come back in a bit :)
 
 <style module>
 .header {

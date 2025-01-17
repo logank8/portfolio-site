@@ -1,12 +1,42 @@
 <h1 :class="$style.header">Eviction of the Damned: 2D Video Game</h1>
 
 
-<h2>Project Summary</h2>
+<h2>
 
-I worked with a team of 4 other developers over 4 months to create a 2D dungeon crawler video game in C++ and OpenGL with an ECS structure. In addition to playing a large role in the project management and debugging, I was responsible for the graphics programming, scene management, BOIDS algorithm implementation for the swarm enemy, tilemap implementation, 2d asset uploads and audio.
+Project Summary
+ - 
 
+</h2>
+I worked with a team of 4 other developers over 4 months to create a 2D dungeon crawler video game in C++ and OpenGL with an ECS structure. 
+We participated in 4 different cross-play user testing sessions throughout development and implemented feedback as needed.
+In addition to playing a large role in the project management and debugging, I was responsible for the graphics programming, scene management, 
+BOIDS algorithm implementation for the swarm enemy, tilemap implementation, 2d asset uploads and audio.
+<h2>
 
-<h2>Highlights</h2>
+Skills showcased
+-
+ 
+</h2>
+
+<li>Shaders in OpenGL</li>
+
+<li>Particle systems</li>
+
+<li>Render system troubleshooting</li>
+
+<li>Game scene management</li>
+
+<li>Project management</li>
+
+<li>User testing and feedback review</li>
+
+<h2>
+
+Highlights
+-
+
+</h2>
+
 
 <h4 :class="$style.highlighthead">Particle system</h4>
 

@@ -16,7 +16,7 @@ hero:
 <div :class="$style.projectDisplay">
   <a href="./open-world-render" :class="$style.card">
       <div :class="$style.cardTitle">
-      Real-Time Rendering in Unity Engine
+      Real-Time Rendering in Unreal Engine
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
@@ -38,7 +38,7 @@ hero:
 
 <h1>Work Experience</h1>
 
-<li>Teaching Assistant - UBC CPSC 317 Introduction to Computer Networking</li>
+<li>Teaching Assistant - UBC CPSC 317 (Introduction to Computer Networking)</li>
 <li>Teaching Assistant - Kumon</li>
 <li>Digital Literacy Volunteer - A.R.T. & Justice Initiative</li>
 <li>Junior Program Officer - Canadian Food Inspection Agency</li>
