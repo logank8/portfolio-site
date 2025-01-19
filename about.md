@@ -6,6 +6,9 @@ I have experience in designing and building websites in a variety of development
 I am always open to new professional endeavours and new opportunities to learn!
 
 
+Currently I am taking CPSC 491 with the <a href="https://thecdm.ca/">Center for Digital Media</a> building on my skills in computer graphics and working with an interdiscplinary team. I am also working as a TA for Introduction to Computer Networking at UBC where I lead tutorials and review networking assignments in Java and C.
+
+I'm also working on a multiplayer open world environment in Unreal Engine to practice my skills in real-time rendering and multiplayer game configurations.
 
 ::: details Full list of skills
 
@@ -57,6 +60,9 @@ If you have any opportunities, questions, or simple comments - feel free to cont
         text-decoration: none !important;
         cursor: grab;
         transition: 0.5s;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .resumeBtn:hover {
