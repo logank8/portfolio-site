@@ -9,12 +9,13 @@ Project Summary
 I worked with a team of 4 other developers over 4 months to create a 2D dungeon crawler video game in C++ and OpenGL with an ECS structure. 
 We participated in 4 different cross-play user testing sessions throughout development and implemented feedback as needed.
 In addition to playing a large role in the project management and debugging, I was responsible for the graphics programming, scene management, 
-BOIDS algorithm implementation for the swarm enemy, tilemap implementation, 2d asset uploads and audio.
+BOIDS algorithm implementation for the swarm enemy, tilemap implementation, 2D asset uploads and audio.
 
 
 Skills Showcased
 -
  
+<li>Entity-Component System in C++</li>
 
 <li>Shaders in OpenGL</li>
 
@@ -103,7 +104,7 @@ I handled all transitions between splash screens, menus, cutscenes, and gameplay
 
 
 
-<h4 :class="$style.highlighthead">2D Physics system</h4>
+<h4 :class="$style.highlighthead">2D Physics System</h4>
 
 The physics system was a collaborative effort across the entire team. However, I am most proud of my work on the AABB collisions and radius-based proximity detection for interactable objects such as health buffs, NPCs, and doors.
 

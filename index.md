@@ -16,7 +16,7 @@ hero:
 <div :class="$style.projectDisplay">
   <a href="./open-world-render" :class="$style.card">
       <div :class="$style.cardTitle">
-      Real-Time Rendering in Unreal Engine
+      Real-Time Rendering Engine
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
