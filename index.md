@@ -14,9 +14,9 @@ hero:
 <h1>Projects</h1>
 
 <div :class="$style.projectDisplay">
-  <a href="./open-world-render" :class="$style.card">
+  <a href="./unity-shaders" :class="$style.card">
       <div :class="$style.cardTitle">
-      Real-Time Rendering Engine
+      Unity Shaders in HLSL & ShaderGraph
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
