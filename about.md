@@ -8,8 +8,6 @@ I am always open to new professional endeavours and new opportunities to learn!
 
 Currently I am taking CPSC 491 with the <a href="https://thecdm.ca/">Center for Digital Media</a> building on my skills in computer graphics and working with an interdiscplinary team. I am also working as a TA for Introduction to Computer Networking at UBC where I lead tutorials and review networking assignments in Java and C.
 
-I'm also working on a real-time rendering engine using Vulkan and C++ with a multithreaded job system.
-
 ::: details Full list of skills
 
 <!-- put this in a flex display with two columns maybe ? -->
@@ -18,7 +16,7 @@ Languages: C++, C#, GLSL, HTML, CSS, JavaScript, SQL
 
 Frameworks: React.js, OpenGL, Node.js, JUnit
 
-Tools: Git, VSCode, IntelliJ, WordPress, GDB, LLDB
+Tools: Git, VSCode, IntelliJ, Unity, WordPress, GDB, LLDB
 
 :::
 
