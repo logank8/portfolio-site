@@ -11,6 +11,8 @@ We participated in 4 different cross-play user testing sessions throughout devel
 In addition to playing a large role in the project management and debugging, I was responsible for the graphics programming, scene management, 
 BOIDS algorithm implementation for the swarm enemy, tilemap implementation, 2D asset uploads and audio.
 
+Github link: https://github.com/logank8/2d-video-game
+
 
 Skills Showcased
 -
