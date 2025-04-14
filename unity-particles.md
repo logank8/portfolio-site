@@ -29,7 +29,7 @@ Currently I am working on adjusting the light integrated with the touch input. T
 
 <figure>
   <video controls loop width="350" autoplay muted :class="$style.media">
-    <source src="./lights1.mov" type="video/mov">
+    <source src="./lights1.mov" type="video/mp4">
   </video>
   <figcaption :class="$style.figcaption">First attempt at touch-based light trails.</figcaption>
 </figure>
