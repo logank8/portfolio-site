@@ -16,7 +16,7 @@ hero:
 <div :class="$style.projectDisplay">
   <a href="./unity-shaders" :class="$style.card">
       <div :class="$style.cardTitle">
-      Unity Shaders in HLSL & ShaderGraph
+      Unity Particle Systems & Lighting
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
