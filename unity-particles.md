@@ -27,7 +27,12 @@ Progress
 
 Currently I am working on adjusting the light integrated with the touch input. This is what it looks like currently: 
 
-<img src="./media/shaders/beerscube.png" width="300px">
+<figure>
+  <video controls loop width="350" autoplay muted :class="$style.media">
+    <source src="./lights1.mov" type="video/mov">
+  </video>
+  <figcaption :class="$style.figcaption">First attempt at touch-based light trails.</figcaption>
+</figure>
 
 I want to vary this first effect much more - how do we make lights look "ethereal" and "alive"? We need to vary the size, movement patterns, visual effects etc. and make all of these parameters vary in part responding to user input. In order to acheive this, I have multiple tasks planned:
 
