@@ -14,7 +14,7 @@ hero:
 <h1>Projects</h1>
 
 <div :class="$style.projectDisplay">
-  <a href="./unity-shaders" :class="$style.card">
+  <a href="./unity-particles" :class="$style.card">
       <div :class="$style.cardTitle">
       Unity Particle Systems & Lighting
       </div>
