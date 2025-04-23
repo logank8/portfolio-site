@@ -43,7 +43,7 @@ I used Unity particle systems for the lights as well as the firework effects. Ea
 
  <figure>
    <video controls loop width="500" autoplay muted :class="$style.media">
-     <source src="./media/particles/triple_lights.MOV" type="video/mp4">
+     <source src="./media/particles/triple_lights.mov" type="video/mp4">
    </video>
    <figcaption :class="$style.figcaption">Moving around 3 lights with 3 individual touches.</figcaption>
  </figure>
