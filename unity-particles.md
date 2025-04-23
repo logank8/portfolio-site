@@ -36,14 +36,6 @@ I used Unity particle systems for the lights as well as the firework effects. Ea
 
  <figure>
    <video controls loop width="500" autoplay muted :class="$style.media">
-     <source src="./media/particles/triple_lights.mov" type="video/mp4">
-   </video>
-   <figcaption :class="$style.figcaption">Moving around 3 lights with 3 individual touches.</figcaption>
- </figure>
-
-
- <figure>
-   <video controls loop width="500" autoplay muted :class="$style.media">
      <source src="./media/particles/single_firework.mov" type="video/mp4">
    </video>
    <figcaption :class="$style.figcaption">Setting off a firework.</figcaption>
@@ -62,14 +54,14 @@ I used Unity particle systems for the lights as well as the firework effects. Ea
 The Unity touch API can process up to 5 finger inputs at once. The app is able to detect the speed of each touch and decide based on threshold whether or not to create a firework. 
 
 <figure>
-   <video controls loop width="500" autoplay muted :class="$style.media">
+   <video controls loop width="300" autoplay muted :class="$style.media">
      <source src="./media/particles/twofingerlights.mov" type="video/mp4">
    </video>
    <figcaption :class="$style.figcaption">Moving lights around on the screen.</figcaption>
  </figure>
 
  <figure>
-   <video controls loop width="500" autoplay muted :class="$style.media">
+   <video controls loop width="300" autoplay muted :class="$style.media">
      <source src="./media/particles/secondinteraction.mov" type="video/mp4">
    </video>
    <figcaption :class="$style.figcaption">Setting off fireworks on the screen.</figcaption>
