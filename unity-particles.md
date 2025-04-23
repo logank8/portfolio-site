@@ -33,6 +33,14 @@ Highlights
 
 I used Unity particle systems for the lights as well as the firework effects. Each touch generates a light of random, unique color (as in, there will never be two lights of the same color on the screen).
 
+
+ <figure>
+   <video controls loop width="500" autoplay muted :class="$style.media">
+     <source src="./media/particles/single_firework.mov" type="video/mp4">
+   </video>
+   <figcaption :class="$style.figcaption">Setting off a firework.</figcaption>
+ </figure>
+
  <figure>
    <video controls loop width="500" autoplay muted :class="$style.media">
      <source src="./media/particles/triple_lights.MOV" type="video/mp4">
@@ -41,12 +49,7 @@ I used Unity particle systems for the lights as well as the firework effects. Ea
  </figure>
 
  
- <figure>
-   <video controls loop width="500" autoplay muted :class="$style.media">
-     <source src="./media/particles/single_firework.mov" type="video/mp4">
-   </video>
-   <figcaption :class="$style.figcaption">Setting off a firework.</figcaption>
- </figure>
+
  
 
   <figure>
