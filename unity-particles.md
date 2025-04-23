@@ -37,7 +37,7 @@ I used Unity particle systems for the lights as well as the firework effects. Ea
    <video controls loop width="300" autoplay muted :class="$style.media">
      <source src="./media/particles/fivelightsscreen.mov" type="video/mp4">
    </video>
-   <figcaption :class="$style.figcaption">Generating five lights from five touches.</figcaption>
+   <figcaption :class="$style.figcaption">Generating five lights from five individual touches.</figcaption>
  </figure>
 
  <figure>
