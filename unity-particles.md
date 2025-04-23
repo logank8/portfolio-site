@@ -8,39 +8,71 @@
 Project Summary
 -
 
-<h5>NOTE</h5>
-This project is currently <b>in progress</b>, but this page provides a summary of my plan + my work so far.
+I created a mobile app with interactive lights and firework effects using Unity. The app creates a stream of lights wherever the user touches, and then creates a firework effect if the user lets go while moving their finger quickly. 
 
-I am creating interactive light particle effects in Unity mobile. The user will be able to move trails of lights around the screen and activate firework effects by moving their finger very fast and letting go or pressing down very hard and letting go.
+Where I'd like to take this project in the future:
+<li>Variations of fireworks</li>
+<li>Adding haptic feedback</li>
+<li>Accelerometer for shaking detection alongside speed detection</li>
+<li>More objects in the scene affected by the lights</li>
 
 Skills showcased
 -
 
 <li>Unity development</li>
 
-<li>Real-time lighting techniques</li>
+<li>Particle systems</li>
 
-<li>Unity touch input</li>
+<li>Unity touch input management</li>
 
-Progress
+
+Highlights
 -
 
-Currently I am working on adjusting the light integrated with the touch input. This is what it looks like currently: 
+<h4>Particle systems</h4>
+
+I used Unity particle systems for the lights as well as the firework effects. Each touch generates a light of random, unique color (as in, there will never be two lights of the same color on the screen).
+
+ <figure>
+   <video controls loop width="500" autoplay muted :class="$style.media">
+     <source src="./media/particles/triple_lights.MOV" type="video/mp4">
+   </video>
+   <figcaption :class="$style.figcaption">Moving around 3 lights with 3 individual touches.</figcaption>
+ </figure>
+
+ 
+ <figure>
+   <video controls loop width="500" autoplay muted :class="$style.media">
+     <source src="./media/particles/single_firework.mov" type="video/mp4">
+   </video>
+   <figcaption :class="$style.figcaption">Setting off a firework.</figcaption>
+ </figure>
+ 
+
+  <figure>
+   <video controls loop width="500" autoplay muted :class="$style.media">
+     <source src="./media/particles/double_fireworks.MOV" type="video/mp4">
+   </video>
+   <figcaption :class="$style.figcaption">Setting off two fireworks at once.</figcaption>
+ </figure>
+
+<h4>Individual touch input speed detection</h4>
+
+The Unity touch API can process up to 5 finger inputs at once. The app is able to detect the speed of each touch and decide based on threshold whether or not to create a firework. 
 
 <figure>
-  <video controls loop width="350" autoplay muted :class="$style.media">
-    <source src="./lights1.mov" type="video/mp4">
-  </video>
-  <figcaption :class="$style.figcaption">First attempt at touch-based light trails.</figcaption>
-</figure>
+   <video controls loop width="500" autoplay muted :class="$style.media">
+     <source src="./media/particles/twofingerlights.mov" type="video/mp4">
+   </video>
+   <figcaption :class="$style.figcaption">Moving lights around on the screen.</figcaption>
+ </figure>
 
-I want to vary this first effect much more - how do we make lights look "ethereal" and "alive"? We need to vary the size, movement patterns, visual effects etc. and make all of these parameters vary in part responding to user input. In order to acheive this, I have multiple tasks planned:
-
-<li>Add custom lighting effects to the particles to make them "glow" - so their light emission is not just reflected in the walls around but also in the particles themselves (Obviously, the wall lighting needs to be tweaked as well).</li>
-
-<li>Reduce the number of particles and instead vary the size.</li>
-
-<li>Implement more responsiveness in the touch functionalities to make it feel more like the user is in control of the light.</li>
+ <figure>
+   <video controls loop width="500" autoplay muted :class="$style.media">
+     <source src="./media/particles/secondinteraction.mov" type="video/mp4">
+   </video>
+   <figcaption :class="$style.figcaption">Setting off fireworks on the screen.</figcaption>
+ </figure>
 
 <style module>
 .header {
