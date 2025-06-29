@@ -43,6 +43,7 @@ hero:
 
 Roles (most recent to least recent):
 
+<li>Junior Game Developer - BC Childrens Hospital Digital Lab</li>
 <li>Teaching Assistant - UBC CPSC 317 (Introduction to Computer Networking)</li>
 <li>Teaching Assistant - Kumon</li>
 <li>Digital Literacy Volunteer - A.R.T. & Justice Initiative</li>
