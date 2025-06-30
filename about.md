@@ -1,12 +1,11 @@
 <h1>About Me</h1>
 
-I am a student at University of British Columbia, pursuing my Bachelor's degree in Computer Science with a minor in Mathematics. I will be graduating in <b>May 2025</b>! I am looking for full-time work anywhere in Canada starting after my graduation.
+I just graduated From University of British Columbia in May 2025 with a Bachelor's degree in Computer Science!
 
-I have experience in designing and building websites in a variety of development environments. I mainly work with either WordPress or React.js + HTML + CSS. I also have a strong interest in game development, especially game graphics, and have been working to learn more about optimizing rendering within a game engine. I believe in detailed and accessible code documentation and an iterative work flow to ensure highest quality. 
+I have a strong passion for game development, especially game graphics, and have been working to learn more about optimizing rendering within a game engine. I believe in detailed and accessible code documentation and an iterative work flow to ensure highest quality. I also have skills and experience in web development and database management.
 I am always open to new professional endeavours and new opportunities to learn!
 
-
-Currently I am taking CPSC 491 with the <a href="https://thecdm.ca/">Center for Digital Media</a> building on my skills in computer graphics and working with an interdiscplinary team. I am also working as a TA for Introduction to Computer Networking at UBC where I lead tutorials and review networking assignments in Java and C.
+Currently I am working as a Junior Game Developer for BC Children's Hospital. As my contract will finish in a few months, I am looking for full-time work for **September 2025**.
 
 ::: details Full list of skills
 
@@ -16,7 +15,7 @@ Languages: C++, C#, GLSL, HTML, CSS, JavaScript, SQL
 
 Frameworks: React.js, OpenGL, Node.js, JUnit
 
-Tools: Git, VSCode, IntelliJ, Unity, WordPress, GDB, LLDB
+Tools: Unity, Git, VSCode, IntelliJ, WordPress, GDB, LLDB
 
 :::
 
