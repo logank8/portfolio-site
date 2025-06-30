@@ -8,11 +8,9 @@
 Project Summary
 -
 
-I created a mobile app with interactive lights and firework effects using Unity. The app creates a stream of lights wherever the user touches, and then creates a firework effect if the user lets go while moving their finger quickly. 
+I created a mobile app with interactive lights and firework effects using Unity. The app creates a stream of lights wherever the user touches, and then creates a firework effect if the user lets go while moving their finger quickly. There are 3 different types of firework, which set off different patterns of haptic feedback.
 
 Where I'd like to take this project in the future:
-<li>Variations of fireworks</li>
-<li>Adding haptic feedback</li>
 <li>Accelerometer for shaking detection alongside speed detection</li>
 <li>More objects in the scene affected by the lights</li>
 
