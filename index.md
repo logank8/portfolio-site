@@ -38,7 +38,7 @@ hero:
 
 <h1>Work Experience</h1>
 
-<img src="./media/job_timeline.png">
+<img src="./media/work_experience.png">
 
 
 Roles (most recent to least recent):
