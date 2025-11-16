@@ -5,7 +5,7 @@ I just graduated From University of British Columbia in May 2025 with a Bachelor
 I have a strong passion for game development, especially game graphics, and have been working to learn more about optimizing rendering within a game engine. I believe in detailed and accessible code documentation and an iterative work flow to ensure highest quality. I also have skills and experience in web development and database management.
 I am always open to new professional endeavours and new opportunities to learn!
 
-Currently I am working as a Junior Game Developer for BC Children's Hospital. As my contract will finish in a few months, I am looking for full-time work for **September 2025**.
+Currently I am working as a Junior Game Developer for BC Children's Hospital. I am currently not looking for work, but I am open to any interesting projects or volunteer work!
 
 ::: details Full list of skills
 
