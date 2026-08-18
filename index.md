@@ -16,21 +16,48 @@ hero:
 <div :class="$style.projectDisplay">
   <a href="./unity-particles" :class="$style.card">
       <div :class="$style.cardTitle">
-      Unity Particle Systems & Lighting
+      Virtual Map
+      </div>
+      <div>
+      Time that I worked on it
+      </div>
+      <div>
+      What I did for it
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
       <div :class="$style.cardTitle">
-      2D Video Game in C++ and OpenGL
+      HeartQuest
+      </div>
+      <div>
+      Time that I worked on it
+      </div>
+      <div>
+      What I did for it
       </div>
     </a>
     <a href="./304-project" :class="$style.card">
       <div :class="$style.cardTitle">
-      Social Media Admin Interface
+      Eviction of the Damned
       </div>
-      <!--<a href="/304-project" :class="$style.cardText">See More</a>-->
+      <div>
+      Time that I worked on it
+      </div>
+      <div>
+      What I did for it
+      </div>
     </a>
-
+  <a href="./304-project" :class="$style.card">
+      <div :class="$style.cardTitle">
+      Eviction of the Damned
+      </div>
+      <div>
+      Time that I worked on it
+      </div>
+      <div>
+      What I did for it
+      </div>
+    </a>
 </div>
 
 
