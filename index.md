@@ -57,7 +57,7 @@ Roles (most recent to least recent):
     background-color:rgb(238, 242, 245, 0.4);
     display: grid;
     text-decoration: none !important;
-    width: 600px;
+    width: 100%;
     height: 150px;
     margin-left: 1%;
 }
