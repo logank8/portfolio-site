@@ -60,6 +60,7 @@ Roles (most recent to least recent):
     width: 100%;
     height: 150px;
     margin-left: 1%;
+    margin: 10px;
 }
 
   .card:hover {
