@@ -55,9 +55,9 @@ Roles (most recent to least recent):
     box-shadow: 0 1px 4px 0 #000000;
     border-radius: 25px;
     background-color:rgb(238, 242, 245, 0.4);
-    display: flex;
+    display: grid;
     text-decoration: none !important;
-    width: 400px;
+    width: 600px;
     height: 150px;
     margin-left: 1%;
 }
@@ -81,7 +81,7 @@ Roles (most recent to least recent):
   .projectDisplay {
     margin-top: 10px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 </style>
