@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Logan Keener"
   text: "Software Engineer"
-  tagline: "Open to work in software development, graphics programming, & more."
+  tagline: "Open to work in game development & more."
   image: '.'
   actions:
     - theme: brand
@@ -43,11 +43,9 @@ hero:
 
 Roles (most recent to least recent):
 
-<li>Junior Game Developer - BC Childrens Hospital Digital Lab</li>
+<li>Game Developer - BC Childrens Hospital Digital Lab</li>
 <li>Teaching Assistant - UBC CPSC 317 (Introduction to Computer Networking)</li>
-<li>Teaching Assistant - Kumon</li>
 <li>Digital Literacy Volunteer - A.R.T. & Justice Initiative</li>
-<li>Junior Program Officer - Canadian Food Inspection Agency</li>
 <li>Community Engagement Assistant - Big Sisters BC Lower Mainland</li>
 <li>Student Researcher - UBC Undergraduate Research Experience Program</li>
 
@@ -57,7 +55,7 @@ Roles (most recent to least recent):
     box-shadow: 0 1px 4px 0 #000000;
     border-radius: 25px;
     background-color:rgb(238, 242, 245, 0.4);
-    display: grid;
+    display: flex;
     text-decoration: none !important;
     width: 400px;
     height: 150px;
@@ -66,7 +64,6 @@ Roles (most recent to least recent):
 
   .card:hover {
       box-shadow: 1px 2px 5px 1px #000000;
-      font-weight: bold;
       transition: 0.2s;
   }
 
