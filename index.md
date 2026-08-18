@@ -14,15 +14,41 @@ hero:
 <h1>Projects</h1>
 
 <div :class="$style.projectDisplay">
+<a href="./unity-particles" :class="$style.card">
+      <div :class="$style.cardTitle">
+      Factory Frenzy
+      </div>
+      <div>
+      Mar. - May 2026
+      </div>
+      <div>
+      Debugged input handling
+      Designed gameplay loop and difficulty progression
+      Smooth level transitions
+      Designed UI (?) and pause menu
+      Audio system
+      Built and deployed for user testing
+      Interactive tutorial screen
+      Adding environmental stuff
+      </div>
+    </a>
   <a href="./unity-particles" :class="$style.card">
       <div :class="$style.cardTitle">
       Virtual Map
       </div>
       <div>
-      Time that I worked on it
+      Nov. 2025 - Feb. 2026
       </div>
       <div>
-      What I did for it
+      Technologies used
+      </div>
+      <div>
+      Reviewed and revised 150+ pages of documentation
+      Designed and developed an admin website to handle user play experiences 
+      Designed new database
+      UI for accessibility
+      Map & goal-setting system
+      QA and general debugging
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
@@ -30,10 +56,24 @@ hero:
       HeartQuest
       </div>
       <div>
-      Time that I worked on it
+      Technologies used
       </div>
       <div>
-      What I did for it
+      May - Sept. 2025
+      </div>
+      <div>
+      Debugged input handling & movement
+      Fixed player animation errors
+      Redesigned dialogue system
+      Added interaction to environment
+      Quest system
+      NPC movement
+      Tutorial level design
+      Minigames related to different parts of the heart
+      Smoothing camera movement in gameplay + cutscenes
+      Building & deploying for user testing
+      Audio system for ui and environmental sound design
+      Redesigned admin portal backend and frontend for play session analytics
       </div>
     </a>
     <a href="./304-project" :class="$style.card">
@@ -41,21 +81,17 @@ hero:
       Eviction of the Damned
       </div>
       <div>
-      Time that I worked on it
+      Sept. - Dec. 2024
       </div>
       <div>
-      What I did for it
-      </div>
-    </a>
-  <a href="./304-project" :class="$style.card">
-      <div :class="$style.cardTitle">
-      Eviction of the Damned
+      Github link: https://github.com/logank8/2d-video-game
       </div>
       <div>
-      Time that I worked on it
-      </div>
-      <div>
-      What I did for it
+      Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.
+      Wrote 2D shaders in OpenGL.
+      Added Boids swarm simulation
+      Scene management
+      Fine-tuned collision detection for obstacles and interactable objects.
       </div>
     </a>
 </div>
