@@ -22,14 +22,17 @@ hero:
       Mar. - May 2026
       </div>
       <div>
-      Debugged input handling
-      Designed gameplay loop and difficulty progression
-      Smooth level transitions
-      Designed UI (?) and pause menu
-      Audio system
-      Built and deployed for user testing
-      Interactive tutorial screen
-      Adding environmental stuff
+      Unity, C#
+      </div>
+      <div>
+      <li>Debugged input handling</li>
+      <li>Designed gameplay loop and difficulty progression</li>
+      <li>Smooth level transitions</li>
+      <li>Designed UI and pause menu</li>
+      <li>Audio system</li>
+      <li>Built and deployed for user testing</li>
+      <li>Interactive tutorial screen</li>
+      <li>Designing additional environmental features</li>
       </div>
     </a>
   <a href="./unity-particles" :class="$style.card">
@@ -40,15 +43,15 @@ hero:
       Nov. 2025 - Feb. 2026
       </div>
       <div>
-      Technologies used
+      Unity, C#, React.js (typescript?), CSS, SQL
       </div>
       <div>
-      Reviewed and revised 150+ pages of documentation
-      Designed and developed an admin website to handle user play experiences 
-      Designed new database
-      UI for accessibility
-      Map & goal-setting system
-      QA and general debugging
+      <li>Map & goal-setting system</li>
+      <li>QA and general debugging</li>
+      <li>Designed and developed an admin website to handle user play experiences </li>
+      <li>Designed new database</li>
+      <li>UI for accessibility</li>
+      <li>Reviewed and revised 150+ pages of documentation</li>
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
@@ -56,24 +59,24 @@ hero:
       HeartQuest
       </div>
       <div>
-      Technologies used
-      </div>
-      <div>
       May - Sept. 2025
       </div>
       <div>
-      Debugged input handling & movement
-      Fixed player animation errors
-      Redesigned dialogue system
-      Added interaction to environment
-      Quest system
-      NPC movement
-      Tutorial level design
-      Minigames related to different parts of the heart
-      Smoothing camera movement in gameplay + cutscenes
-      Building & deploying for user testing
-      Audio system for ui and environmental sound design
-      Redesigned admin portal backend and frontend for play session analytics
+      Unity, C#, (website code stuff)
+      </div>
+      <div>
+      <li>Debugged input handling & movement</li>
+      <li>Fixed player animation errors</li>
+      <li>Redesigned dialogue system</li>
+      <li>Added interaction to environment</li>
+      <li>Quest system</li>
+      <li>NPC movement</li>
+      <li>Tutorial level design</li>
+      <li>Minigames related to different parts of the heart</li>
+      <li>Smoothing camera movement in gameplay + cutscenes</li>
+      <li>Building & deploying for user testing</li>
+      <li>Audio system for ui and environmental sound design</li>
+      <li>Redesigned admin portal backend and frontend for play session analytics</li>
       </div>
     </a>
     <a href="./304-project" :class="$style.card">
@@ -84,14 +87,15 @@ hero:
       Sept. - Dec. 2024
       </div>
       <div>
-      Github link: https://github.com/logank8/2d-video-game
+      C++, OpenGL
       </div>
       <div>
-      Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.
-      Wrote 2D shaders in OpenGL.
-      Added Boids swarm simulation
-      Scene management
-      Fine-tuned collision detection for obstacles and interactable objects.
+      Github link: https://github.com/logank8/2d-video-game
+      <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
+      <li>Wrote 2D shaders in OpenGL.</li>
+      <li>Added Boids swarm simulation</li>
+      <li>Scene management</li>
+      <li>Fine-tuned collision detection for obstacles and interactable objects.</li>
       </div>
     </a>
 </div>
