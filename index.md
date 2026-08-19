@@ -125,7 +125,6 @@ Roles (most recent to least recent):
     display: grid;
     text-decoration: none !important;
     width: 100%;
-    height: 150px;
     margin-left: 1%;
     margin: 10px;
 }
@@ -138,8 +137,6 @@ Roles (most recent to least recent):
   .cardTitle {
       font-size: 30px;
       text-align: center;
-      margin-inline: 10%;
-      margin-top: 10%;
       line-height: 35px;
       color:black;
       opacity: 1.0;
