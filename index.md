@@ -149,7 +149,7 @@ Roles (most recent to least recent):
     margin-left: 1%;
     margin: 10px;
     padding: 15px;
-    color:black;
+    
 }
 
   .card:hover {
@@ -163,11 +163,13 @@ Roles (most recent to least recent):
       line-height: 35px;
       opacity: 1.0;
       text-decoration: none;
+      color:black;
   }
 
   .cardDetails {
     display: flex;
     flex-direction: row;
+    color:black;
   }
 
   .projectDisplay {
