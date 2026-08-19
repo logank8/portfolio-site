@@ -19,9 +19,12 @@ hero:
         Factory Frenzy
       </div>
       <div :class="$style.cardDetails">
-        <div>
-          [Video]
-        </div>
+        <figure>
+          <video controls loop width="350" autoplay muted :class="$style.media">
+            <source src="./media/eviction_game/death.mp4" type="video/mp4">
+          </video>
+          <figcaption :class="$style.figcaption">When the player dies, the screen slowly darkens and then moves to the Game Over menu screen.</figcaption>
+        </figure>
         <div>
           <div>
             Mar. - May 2026
