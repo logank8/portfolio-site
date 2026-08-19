@@ -14,7 +14,7 @@ hero:
 <h1>Projects</h1>
 
 <div :class="$style.projectDisplay">
-<a href="./unity-particles" :class="$style.card">
+<a :class="$style.card">
       <div :class="$style.cardTitle">
         Factory Frenzy
       </div>
@@ -41,7 +41,7 @@ hero:
         </div>
       </div>
     </a>
-  <a href="./unity-particles" :class="$style.card">
+  <a :class="$style.card">
       <div :class="$style.cardTitle">
         Virtual Map
       </div>
@@ -65,12 +65,15 @@ hero:
         </div>
       </div>
     </a>
-    <a href="./eviction-game" :class="$style.card">
+    <a :class="$style.card">
       <div :class="$style.cardTitle">
         HeartQuest
       </div>
       <div :class="$style.cardDetails">
-        <figure></figure>
+        <figure>
+          <img src="./media/heartq/dialogue.png">
+          <img src="./media/heartq/quest.png">
+        </figure>
         <div>
           <div>
             May - Sept. 2025
