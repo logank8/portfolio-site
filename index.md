@@ -149,6 +149,7 @@ Roles (most recent to least recent):
     margin-left: 1%;
     margin: 10px;
     padding: 15px;
+    padding-left: 20px;
     
 }
 
@@ -167,6 +168,7 @@ Roles (most recent to least recent):
   }
 
   .cardDetails {
+    font-size: 17px;
     display: flex;
     flex-direction: row;
     color:black;
