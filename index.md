@@ -16,23 +16,30 @@ hero:
 <div :class="$style.projectDisplay">
 <a href="./unity-particles" :class="$style.card">
       <div :class="$style.cardTitle">
-      Factory Frenzy
+        Factory Frenzy
       </div>
-      <div>
-      Mar. - May 2026
-      </div>
-      <div>
-      Unity, C#
-      </div>
-      <div>
-      <li>Debugged input handling</li>
-      <li>Designed gameplay loop and difficulty progression</li>
-      <li>Smooth level transitions</li>
-      <li>Designed UI and pause menu</li>
-      <li>Audio system</li>
-      <li>Built and deployed for user testing</li>
-      <li>Interactive tutorial screen</li>
-      <li>Designing additional environmental features</li>
+      <div :class="$style.cardDetails">
+        <div>
+          [Video]
+        </div>
+        <div>
+          <div>
+            Mar. - May 2026
+          </div>
+          <div>
+            Unity, C#
+          </div>
+          <div>
+            <li>Debugged input handling</li>
+            <li>Designed gameplay loop and difficulty progression</li>
+            <li>Smooth level transitions</li>
+            <li>Designed UI and pause menu</li>
+            <li>Audio system</li>
+            <li>Built and deployed for user testing</li>
+            <li>Interactive tutorial screen</li>
+            <li>Designing additional environmental features</li>
+          </div>
+        </div>
       </div>
     </a>
   <a href="./unity-particles" :class="$style.card">
@@ -136,11 +143,16 @@ Roles (most recent to least recent):
 
   .cardTitle {
       font-size: 30px;
-      text-align: center;
+      text-align: left;
       line-height: 35px;
       color:black;
       opacity: 1.0;
       text-decoration: none;
+  }
+
+  .cardDetails {
+    display: flex;
+    flex-direction: row;
   }
 
   .projectDisplay {
