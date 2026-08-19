@@ -149,6 +149,7 @@ Roles (most recent to least recent):
     margin-left: 1%;
     margin: 10px;
     padding: 15px;
+    color:black;
 }
 
   .card:hover {
@@ -157,10 +158,9 @@ Roles (most recent to least recent):
   }
 
   .cardTitle {
-      font-size: 30px;
+      font-size: 28px;
       text-align: left;
       line-height: 35px;
-      color:black;
       opacity: 1.0;
       text-decoration: none;
   }
