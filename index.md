@@ -20,10 +20,6 @@ hero:
       </div>
       <div :class="$style.cardDetails">
         <figure>
-          <video controls loop width="350" autoplay muted :class="$style.media">
-            <source src="./media/eviction_game/death.mp4" type="video/mp4">
-          </video>
-          <figcaption :class="$style.figcaption">When the player dies, the screen slowly darkens and then moves to the Game Over menu screen.</figcaption>
         </figure>
         <div>
           <div>
@@ -47,65 +43,80 @@ hero:
     </a>
   <a href="./unity-particles" :class="$style.card">
       <div :class="$style.cardTitle">
-      Virtual Map
+        Virtual Map
       </div>
-      <div>
-      Nov. 2025 - Feb. 2026
-      </div>
-      <div>
-      Unity, C#, React.js (typescript?), CSS, SQL
-      </div>
-      <div>
-      <li>Map & goal-setting system</li>
-      <li>QA and general debugging</li>
-      <li>Designed and developed an admin website to handle user play experiences </li>
-      <li>Designed new database</li>
-      <li>UI for accessibility</li>
-      <li>Reviewed and revised 150+ pages of documentation</li>
+      <div :class="$style.cardDetails">
+        <figure></figure>
+        <div>
+          <div>
+            Nov. 2025 - Feb. 2026
+          </div>
+          <div>
+            Unity, C#, React.js (typescript?), CSS, SQL
+          </div>
+          <div>
+            <li>Map & goal-setting system</li>
+            <li>QA and general debugging</li>
+            <li>Designed and developed an admin website to handle user play experiences </li>
+            <li>Designed new database</li>
+            <li>UI for accessibility</li>
+            <li>Reviewed and revised 150+ pages of documentation</li>
+          </div>
+        </div>
       </div>
     </a>
     <a href="./eviction-game" :class="$style.card">
       <div :class="$style.cardTitle">
-      HeartQuest
+        HeartQuest
       </div>
-      <div>
-      May - Sept. 2025
-      </div>
-      <div>
-      Unity, C#, (website code stuff)
-      </div>
-      <div>
-      <li>Debugged input handling & movement</li>
-      <li>Fixed player animation errors</li>
-      <li>Redesigned dialogue system</li>
-      <li>Added interaction to environment</li>
-      <li>Quest system</li>
-      <li>NPC movement</li>
-      <li>Tutorial level design</li>
-      <li>Minigames related to different parts of the heart</li>
-      <li>Smoothing camera movement in gameplay + cutscenes</li>
-      <li>Building & deploying for user testing</li>
-      <li>Audio system for ui and environmental sound design</li>
-      <li>Redesigned admin portal backend and frontend for play session analytics</li>
+      <div :class="$style.cardDetails">
+        <figure></figure>
+        <div>
+          <div>
+            May - Sept. 2025
+          </div>
+          <div>
+            Unity, C#, (website code stuff)
+          </div>
+          <div>
+            <li>Debugged input handling & movement</li>
+            <li>Fixed player animation errors</li>
+            <li>Redesigned dialogue system</li>
+            <li>Added interaction to environment</li>
+            <li>Quest system</li>
+            <li>NPC movement</li>
+            <li>Tutorial level design</li>
+            <li>Minigames related to different parts of the heart</li>
+            <li>Smoothing camera movement in gameplay + cutscenes</li>
+            <li>Building & deploying for user testing</li>
+            <li>Audio system for ui and environmental sound design</li>
+            <li>Redesigned admin portal backend and frontend for play session analytics</li>
+          </div>
+        </div>
       </div>
     </a>
     <a href="./304-project" :class="$style.card">
       <div :class="$style.cardTitle">
       Eviction of the Damned
       </div>
-      <div>
-      Sept. - Dec. 2024
-      </div>
-      <div>
-      C++, OpenGL
-      </div>
-      <div>
-      Github link: https://github.com/logank8/2d-video-game
-      <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
-      <li>Wrote 2D shaders in OpenGL.</li>
-      <li>Added Boids swarm simulation</li>
-      <li>Scene management</li>
-      <li>Fine-tuned collision detection for obstacles and interactable objects.</li>
+      <div :class="$style.cardDetails">
+        <figure></figure>
+        <div>
+          <div>
+            Sept. - Dec. 2024
+          </div>
+          <div>
+            C++, OpenGL
+          </div>
+          <div>
+            Github link: https://github.com/logank8/2d-video-game
+            <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
+            <li>Wrote 2D shaders in OpenGL.</li>
+            <li>Added Boids swarm simulation</li>
+            <li>Scene management</li>
+            <li>Fine-tuned collision detection for obstacles and interactable objects.</li>
+          </div>
+        </div>
       </div>
     </a>
 </div>
