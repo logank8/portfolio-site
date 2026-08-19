@@ -148,6 +148,7 @@ Roles (most recent to least recent):
     width: 100%;
     margin-left: 1%;
     margin: 10px;
+    padding: 15px;
 }
 
   .card:hover {
