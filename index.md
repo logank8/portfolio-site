@@ -71,8 +71,7 @@ hero:
       </div>
       <div :class="$style.cardDetails">
         <figure>
-          <img class="$style.cardImg" src="./media/heartq/dialogue.png">
-          <img class="$style.cardImg" src="./media/heartq/quest.png">
+          <img width="350" class="$style.cardImg" src="./media/heartq/quest.png">
         </figure>
         <div>
           <div>
@@ -179,7 +178,6 @@ Roles (most recent to least recent):
 
   .cardImg {
     margin-bottom: 10px;
-    width: 40%;
   }
 
   .projectDisplay {
