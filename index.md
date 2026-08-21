@@ -73,7 +73,7 @@ hero:
         <figure>
           <img width="350" class="$style.cardImg" src="./media/heartq/quest.png">
         </figure>
-        <div>
+        <div :class="$style.projectInfo">
           <div>
             May - Sept. 2025
           </div>
@@ -174,6 +174,10 @@ Roles (most recent to least recent):
     display: flex;
     flex-direction: row;
     color:black;
+  }
+
+  .projectInfo {
+    margin-left: 15px;
   }
 
   .cardImg {
