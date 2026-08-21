@@ -69,14 +69,15 @@ hero:
       <div :class="$style.cardTitle">
         HeartQuest
       </div>
+      <div>
+        May - Sept. 2025
+      </div>
       <div :class="$style.cardDetails">
         <figure>
           <img width="350" class="$style.cardImg" src="./media/heartq/quest.png">
         </figure>
         <div :class="$style.projectInfo">
-          <div>
-            May - Sept. 2025
-          </div>
+          
           <div>
             Unity, C#, (website code stuff)
           </div>
@@ -144,7 +145,8 @@ Roles (most recent to least recent):
   .card {
     box-shadow: 0 1px 4px 0 #000000;
     border-radius: 25px;
-    background-color:rgb(238, 242, 245, 0.4);
+    /* background-color:rgb(238, 242, 245, 0.4); */
+    background-color: #948dad;
     display: grid;
     text-decoration: none !important;
     width: 100%;
@@ -177,7 +179,7 @@ Roles (most recent to least recent):
   }
 
   .projectInfo {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .cardImg {
