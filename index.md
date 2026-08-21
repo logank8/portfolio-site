@@ -77,7 +77,6 @@ hero:
           <img width="350" class="$style.cardImg" src="./media/heartq/quest.png">
         </figure>
         <div :class="$style.projectInfo">
-          
           <div>
             Unity, C#, (website code stuff)
           </div>
