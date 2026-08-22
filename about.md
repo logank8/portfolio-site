@@ -35,7 +35,7 @@ If you have any opportunities, questions, or simple comments - feel free to cont
 <!-- put contact stuff here-->
 
 <div :class="$style.contactDisplay">
-    <a href="github.com/logank8">
+    <a href="https:/www.github.com/logank8">
         <img src="./media/icons/github.png" :class="$style.contactIcon">
     </a>
     <a href="mailto:lokeener@student.ubc.ca">
