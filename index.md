@@ -122,7 +122,6 @@ hero:
         <figure></figure>
         <div :class="$style.projectInfo">
           <div>
-            
             <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
             <li>Wrote 2D shaders in OpenGL.</li>
             <li>Added Boids swarm simulation</li>
