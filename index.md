@@ -18,16 +18,18 @@ hero:
       <div :class="$style.cardTitle">
         Factory Frenzy
       </div>
+      <div :class="$style.cardSubtitle">
+        <div>
+          <i>Technologies used: Unity, C#</i>
+        </div>
+        <div>
+          Mar. - May 2026
+        </div>
+      </div>
       <div :class="$style.cardDetails">
         <figure>
         </figure>
-        <div>
-          <div>
-            Mar. - May 2026
-          </div>
-          <div>
-            Unity, C#
-          </div>
+        <div :class="$style.projectInfo">
           <div>
             <li>Debugged input handling</li>
             <li>Designed gameplay loop and difficulty progression</li>
@@ -45,16 +47,18 @@ hero:
       <div :class="$style.cardTitle">
         Virtual Map
       </div>
+      <div :class="$style.cardSubtitle">
+        <div>
+          <i>Technologies used: Unity, C#, React.js (typescript?), CSS, SQL</i>
+        </div>
+        <div>
+            Nov. 2025 - Feb. 2026
+          </div>
+      </div>
       <div :class="$style.cardDetails">
         <figure></figure>
         <div>
-          <div>
-            Nov. 2025 - Feb. 2026
-          </div>
-          <div>
-            Unity, C#, React.js (typescript?), CSS, SQL
-          </div>
-          <div>
+          <div :class="$style.projectInfo">
             <li>Map & goal-setting system</li>
             <li>QA and general debugging</li>
             <li>Designed and developed an admin website to handle user play experiences </li>
@@ -101,19 +105,21 @@ hero:
         </div>
       </div>
     </a>
-    <a href="./304-project" :class="$style.card">
+    <a :class="$style.card">
       <div :class="$style.cardTitle">
       Eviction of the Damned
+      </div>
+      <div :class="$style.cardSubtitle">
+        <div>
+          <i>Technologies used: C++, OpenGL</i>
+        </div>
+        <div>
+            Sept. - Dec. 2024
+          </div>
       </div>
       <div :class="$style.cardDetails">
         <figure></figure>
         <div>
-          <div>
-            Sept. - Dec. 2024
-          </div>
-          <div>
-            C++, OpenGL
-          </div>
           <div>
             Github link: https://github.com/logank8/2d-video-game
             <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
