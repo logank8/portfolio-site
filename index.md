@@ -115,13 +115,14 @@ hero:
         </div>
         <div>
             Sept. - Dec. 2024
-          </div>
+        </div>
+        <a href="https://github.com/logank8/2d-video-game">Github link</a>
       </div>
       <div :class="$style.cardDetails">
         <figure></figure>
         <div :class="$style.projectInfo">
           <div>
-            Github link: https://github.com/logank8/2d-video-game
+            
             <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
             <li>Wrote 2D shaders in OpenGL.</li>
             <li>Added Boids swarm simulation</li>
