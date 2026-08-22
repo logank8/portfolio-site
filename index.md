@@ -119,7 +119,7 @@ hero:
       </div>
       <div :class="$style.cardDetails">
         <figure></figure>
-        <div>
+        <div :class="$style.projectInfo">
           <div>
             Github link: https://github.com/logank8/2d-video-game
             <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
