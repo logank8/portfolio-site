@@ -69,17 +69,19 @@ hero:
       <div :class="$style.cardTitle">
         HeartQuest
       </div>
-      <div>
+      <div :class="$style.cardSubtitle">
+        <div>
         May - Sept. 2025
+        </div>
+        <div>
+        <i>Technologies used: Unity, C#, React.js, PostgreSQL, Docker, Supabase</i>
+        </div>
       </div>
       <div :class="$style.cardDetails">
         <figure>
           <img width="450" class="$style.cardImg" src="./media/heartq/quest.png">
         </figure>
         <div :class="$style.projectInfo">
-          <div>
-            <i>Technologies used: Unity, C#, React.js, PostgreSQL, Docker, Supabase</i>
-          </div>
           <div>
             <li>Debugged input handling & movement</li>
             <li>Fixed player animation errors</li>
@@ -168,6 +170,11 @@ Roles (most recent to least recent):
       opacity: 1.0;
       text-decoration: none;
       color:black;
+  }
+
+  .cardSubtitle {
+    color: black;
+    
   }
 
   .cardDetails {
