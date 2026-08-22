@@ -194,6 +194,7 @@ Roles (most recent to least recent):
   }
 
   .cardImg {
+    margin-top: 15px;
     margin-bottom: 10px;
   }
 
