@@ -79,7 +79,7 @@ hero:
       </div>
       <div :class="$style.cardDetails">
         <figure>
-          <video controls loop width="450" autoplay muted :class="$style.cardImg">
+          <video loop width="450" autoplay muted :class="$style.cardImg">
             <source src="./media/heartq/heartquest_highlights.mp4" type="video/mp4">
           </video>
         </figure>
@@ -187,6 +187,7 @@ Roles (most recent to least recent):
   }
 
   .projectInfo {
+    font-size: 14px;
     margin-left: 25px;
   }
 
