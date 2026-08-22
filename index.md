@@ -71,15 +71,17 @@ hero:
       </div>
       <div :class="$style.cardSubtitle">
         <div>
-        May - Sept. 2025
+          <i>Technologies used: Unity, C#, React.js, PostgreSQL, Docker, Supabase</i>
         </div>
         <div>
-        <i>Technologies used: Unity, C#, React.js, PostgreSQL, Docker, Supabase</i>
+        May - Sept. 2025
         </div>
       </div>
       <div :class="$style.cardDetails">
         <figure>
-          <img width="450" class="$style.cardImg" src="./media/heartq/quest.png">
+          <video controls loop width="450" autoplay muted :class="$style.cardImg">
+            <source src="./media/heartq/heartquest_highlights.mp4" type="video/mp4">
+          </video>
         </figure>
         <div :class="$style.projectInfo">
           <div>
@@ -174,7 +176,7 @@ Roles (most recent to least recent):
 
   .cardSubtitle {
     color: black;
-    
+
   }
 
   .cardDetails {
