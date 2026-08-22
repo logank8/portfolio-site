@@ -74,11 +74,11 @@ hero:
       </div>
       <div :class="$style.cardDetails">
         <figure>
-          <img width="350" class="$style.cardImg" src="./media/heartq/quest.png">
+          <img width="450" class="$style.cardImg" src="./media/heartq/quest.png">
         </figure>
         <div :class="$style.projectInfo">
           <div>
-            Unity, C#, (website code stuff)
+            <i>Technologies used: Unity, C#, React.js, PostgreSQL, Docker, Supabase</i>
           </div>
           <div>
             <li>Debugged input handling & movement</li>
@@ -145,7 +145,7 @@ Roles (most recent to least recent):
     box-shadow: 0 1px 4px 0 #000000;
     border-radius: 25px;
     /* background-color:rgb(238, 242, 245, 0.4); */
-    background-color: #948dad;
+    background-color: #c8c2e1bd;
     display: grid;
     text-decoration: none !important;
     width: 100%;
