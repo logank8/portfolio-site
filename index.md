@@ -119,7 +119,11 @@ hero:
         <a href="https://github.com/logank8/2d-video-game">Github link</a>
       </div>
       <div :class="$style.cardDetails">
-        <figure></figure>
+        <figure>
+          <video controls loop width="450" autoplay muted :class="$style.cardImg">
+            <source src="./media/eviction_game/eviction_highlights.mp4" type="video/mp4">
+          </video>
+        </figure>
         <div :class="$style.projectInfo">
           <div>
             <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
