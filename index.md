@@ -28,6 +28,9 @@ hero:
       </div>
       <div :class="$style.cardDetails">
         <figure>
+          <video controls loop width="450" autoplay muted :class="$style.cardImg">
+            <source src="./media/factory/factory_highlights.mp4" type="video/mp4">
+          </video>
         </figure>
         <div :class="$style.projectInfo">
           <div>
@@ -49,7 +52,7 @@ hero:
       </div>
       <div :class="$style.cardSubtitle">
         <div>
-          <i>Technologies used: Unity, C#, React.js (typescript?), CSS, SQL</i>
+          <i>Technologies used: Unity, C#, React.js, CSS, SQL</i>
         </div>
         <div>
             Nov. 2025 - Feb. 2026
