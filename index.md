@@ -78,7 +78,7 @@ hero:
       </div>
       <div :class="$style.cardSubtitle">
         <div>
-          <i>Technologies used: Unity, C#, React.js, PostgreSQL, Docker, Google Cloud SQL</i>
+          <i>Technologies used: Unity, C#, React, JavaScript, PostgreSQL, Docker, Google Cloud SQL</i>
         </div>
         <div>
           May - Sept. 2025
