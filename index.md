@@ -28,7 +28,7 @@ hero:
       </div>
       <div :class="$style.cardDetails">
         <figure>
-          <video controls loop width="450" autoplay muted :class="$style.cardImg">
+          <video controls loop width="550" autoplay muted :class="$style.cardImg">
             <source src="./media/factory/factory_highlights.mp4" type="video/mp4">
           </video>
         </figure>
