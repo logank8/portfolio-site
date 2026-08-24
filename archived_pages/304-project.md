@@ -33,13 +33,11 @@ I also utilized Postman to test our API throughout the process.
 
 After planning user stories and goals for our application, we collaborated to create an entity relationship diagram for the initial layout of the relational database. 
 
-<img src="./media/304_project/304-erd.png">
 
 <h4>Converting Queries From Relational Algebra To SQL</h4>
 
 We made a list of relational algebra operations that we wanted our frontend to include. I then converted the relational algebra to different SQL queries.
 
-<img src="./media/304_project/query-planning.png" width="350px">
 
 <h4>Frontend UI Planning</h4>
 
@@ -47,7 +45,6 @@ I collaborated with my partner to plan out our frontend where users could carry 
 
 Our initial visualization:
 
-<img src="./media/304_project/frontend-visualization.png">
 
 <style module>
 .header {
