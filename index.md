@@ -133,10 +133,16 @@ hero:
         <div :class="$style.projectInfo">
           <div>
             <li>Designed and developed a 2D dungeon crawler game with 4 other developers using an Entity-Component System in C++.</li>
-            <li>Wrote 2D shaders in OpenGL.</li>
-            <li>Added Boids swarm simulation</li>
-            <li>Scene management</li>
-            <li>Fine-tuned collision detection for obstacles and interactable objects.</li>
+            <li>Handled project management to ensure timely completion of deliverables and fair delegation of tasks.</li>
+            <li>Wrote 2D shaders in OpenGL including a Phong lighting model and a glowing effect on the player.</li>
+            <li>Designed new types of enemies with new attack and chasing styles for each level.</li>
+            <li>Coded a tilemap-based system for obstacles, decor, and enemy spawn points.</li>
+            <li>Wrote an enemy spawning system to ensure a balanced level with elements of randomization.</li>
+            <li>Designed and developed a Boids swarm simulation as an enemy in the form of flies chasing the player.</li>
+            <li>Debugged player and enemy movement systems, fixing errors with things like collisions, knockback and speed inconsistency.</li>
+            <li>Developed a particle system in C++ to add a pixelized smoke effect on enemy death.</li>
+            <li>Planned and implemented all scene transitions, cutscenes, and scene flow management within the game.</li>
+            <li>Designed the game level selection as an elevator with different floor buttons leading to different levels.</li>
           </div>
         </div>
       </div>
